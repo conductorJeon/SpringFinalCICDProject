@@ -8,6 +8,7 @@ pipeline{
       COMPOSE_FILE = "docker-compose.yml"
    }
    
+   
    stages{
       stage('Checkout'){
          steps{
