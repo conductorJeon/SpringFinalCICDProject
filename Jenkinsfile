@@ -3,7 +3,7 @@ pipeline{
    
    environment{
 			DOCKER_USER = 'masterjeon'
-      IMAGE_NAME = '${DOCKER_USER}/boot-app:latest'
+      IMAGE_NAME = 'masterjeon/boot-app:latest'
       CONTAINER_NAME = 'boot-app'
    }
    
