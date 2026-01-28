@@ -42,9 +42,9 @@ pipeline{
 						usernameVariable: 'DOCKER_ID',
 						passwordVariable: 'DOCKER_PW'
 					)]) {
-						sh '''
+						sh """
 							echo $DOCKER_PW | docker login -u $DOCKER_ID --password-stdin
-						'''
+						"""
 					}
 				}
 			}
